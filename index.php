@@ -1,6 +1,6 @@
 <?php?
 $server = "192.168.0.52";
-$connectionifo = array("Database"=>"datos","UID"=>"tics","PWS"=>"tic2019");
+$connectionifo = array("Database"=>"datos","UID"=>"tics","PWD"=>"tic2019");
 $conn =  sqlsrv_connect($server,$connectionifo);
 if($conn){
     echo "Conexión establecida.<br />";
